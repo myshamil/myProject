@@ -1,3 +1,4 @@
+
 package character;
 import java.util.Scanner;
 public class Archer extends Hero {
