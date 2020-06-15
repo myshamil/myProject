@@ -23,10 +23,31 @@ public class PotionStore extends Map{
 		if(num==1) {
 			if(powerPotion <= Money) {
 				System.out.println("힘 포션을 구매하셨습니다.");
-				
+				return Money - powerPotion;
+			}
+			
+		}else if (num ==2) {
+			if(defensePotion<= Money) {
+				System.out.println();
+				return Money - defensePotion;
+			}
+		}else if (num ==3) {
+			if(experiencePotion<= Money) {
+				System.out.println();
+				return Money - experiencePotion;
+			}
+		}else if (num ==4) {
+			if(hpPotion<= Money) {
+				System.out.println();
+				return Money - hpPotion;
+			}
+		}else if (num ==5) {
+			if(mpPotion<= Money) {
+				System.out.println();
+				return Money - mpPotion;
 			}
 		}
-		
+		return -1; //돈이 부족? 부족한거랑 판단하는거 수정해야할듯
 
 	}
 }

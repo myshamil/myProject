@@ -39,15 +39,25 @@ public class GameMain {
 		
 		while(true) {
 			System.out.println("++++++++++++");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
-			System.out.println("");
+			System.out.println("영웅 이름 : "+ hero.name);
+			System.out.println("레벨 "+ hero.level);
+			System.out.println("힘" + hero.Power);
+			System.out.println("방어력" + hero.Defence);
+			System.out.println("HP "+ hero.hp);
+			System.out.println("MP " + hero.mp);
+			System.out.println("돈 "+ hero.Money+"골드");
+			System.out.println("경험치" + hero.Experience);
 			System.out.println("++++++++++++");
+			System.out.println();
+			System.out.println("입장할 장소를 선택해주세요.");
+			System.out.println("1. 사냥터");
+			System.out.println("2. 무기상점");
+			System.out.println("3. 포션 상점");
+			num = sc.nextInt();
+			
+			if(num ==1) {
+				
+			}
 		}
 	}
 }
